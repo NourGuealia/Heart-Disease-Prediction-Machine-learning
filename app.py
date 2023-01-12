@@ -50,7 +50,7 @@ with col3 :
   fbs = st.number_input('Fasting Blood Sugar > 120 mg/dl' , min_value=50 , max_value=200 , step=5)
 
 with col1:
-  restecg = st.number_input('Resting Electrocardiographic results')
+  restecg = st.number_input('Resting Electrocardiographic results' , min_value=0 , max_value=2 , step=1)
 
 with col2:
   thalach = st.number_input('Maximum Heart Rate achieved')
@@ -65,7 +65,7 @@ with col2:
   slope = st.number_input('Slope of the peak exercise ST segment')
 
 with col3:
-  ca = st.number_input('Major vessels colored by flourosopy')
+  ca = st.number_input('Major vessels colored by flourosopy', min_value=0 , max_value=3 , step=1)
 
 with col1:
   thal = st.selectbox(

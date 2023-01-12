@@ -1,4 +1,5 @@
 pandas
 numpy
 pickle
-sklearn
+sklearn==1.1.0
+streamlit

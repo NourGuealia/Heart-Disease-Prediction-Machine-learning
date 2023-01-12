@@ -5,10 +5,6 @@ name = "pypi"
 
 [packages]
 streamlit = "*"
-pandas
-numpy
-pickle
-sklearn
 
 
 [dev-packages]
